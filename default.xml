@@ -605,7 +605,7 @@
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" remote="cm" />
 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
-  <project path="documentation" name="Documentation" />
+  <project path="documentation" name="Documentation" revision="master" />
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" remote="cm" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
