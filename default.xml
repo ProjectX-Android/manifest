@@ -639,6 +639,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
 
   <project path="vendor/px" name="vendor_px" />
+  <project path="vendor/sabermod" name="vendor_sabermod" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" remote="cm" /> 
   <!--#########################################################--> 
 </manifest>
