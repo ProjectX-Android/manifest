@@ -7,9 +7,8 @@
            revision="refs/tags/android-5.1.1_r3" />
 
   <remote  name="cm"
-           fetch=".."
-           review="review.cyanogenmod.org"
-           revision="refs/heads/cm-12.1" />
+           fetch="https://github.com/Cyanogenmod/" 
+           revision="cm-12.1" />
   
   <remote  name="px"
            fetch="https://github.com/ProjectX-Android/" />
