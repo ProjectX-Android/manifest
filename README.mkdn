@@ -1,4 +1,4 @@
-CyanHacker documentation
+ProjectX documentation
 ===========
 
 Please see the [Documentation repo](https://github.com/ProjectX-Android/Documentation) or the documentation folder in your local px source for detailed documentation of ProjectX
