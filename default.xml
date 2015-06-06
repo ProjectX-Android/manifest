@@ -216,7 +216,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" />
-  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cm" />
+  <project path="external/libpng" name="external_libpng" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" remote="cm" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="cm" />
