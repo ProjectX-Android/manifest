@@ -607,7 +607,7 @@
 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="documentation" name="Documentation" revision="master" />
-  <project path="libcore" name="android_libcore" remote="cm" />
+  <project path="libcore" name="libcore" />
   <project path="libnativehelper" name="android_libnativehelper" groups="pdk-java" remote="cm" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
