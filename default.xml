@@ -58,6 +58,7 @@
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" />
+<project path="external/android/support-prebuilt" name="external_android_support-prebuilt" remote="cm" revision="master" />
   <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs" remote="cm" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" />
@@ -242,7 +243,7 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
+  <project path="external/lzma" name="android_external_lzma" remote="cm" />
   <project path="external/lsof" name="android_external_lsof" remote="cm" />
   <project path="external/lz4" name="android_external_lz4" remote="cm" />
   <project path="external/lzo" name="android_external_lzo" remote="cm" />
@@ -613,7 +614,7 @@
   <project path="sdk" name="platform/sdk" remote="aosp" />
 
   <project path="system/core" name="android_system_core" groups="pdk" remote="cm" />
-  <project path="system/extras" name="system_extras" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm"  />
   <project path="system/extras/su" name="android_system_extras_su" remote="cm" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="cm" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="cm" />
@@ -635,7 +636,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
 
-  <project path="vendor/px" name="vendor_px" />
+  <project path="vendor/px" name="vendor_px" >
+     <copyfile src="tools/build.sh" dest="build.sh" />
+  </project>
   <project path="vendor/sabermod" name="vendor_sabermod" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" /> 
   <!--#########################################################--> 
