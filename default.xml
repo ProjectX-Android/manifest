@@ -635,10 +635,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
 
- <!-- <project path="vendor/px" name="vendor_px" >
+  <project path="vendor/px" name="vendor_px" >
      <copyfile src="tools/build.sh" dest="build.sh" />
-  </project>-->
-  <project path="vendor/px" name="vendor_px" />
+  </project>
   <project path="vendor/sabermod" name="vendor_sabermod" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="cm" /> 
   <!--#########################################################--> 
