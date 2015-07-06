@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_6d4adb81",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 479,
+      "author": {
+        "id": 1003174
+      },
+      "writtenOn": "2015-07-06T17:24:06Z",
+      "side": 1,
+      "message": "fetch different branches",
+      "range": {
+        "startLine": 479,
+        "startChar": 0,
+        "endLine": 479,
+        "endChar": 111
+      },
+      "revId": "7d4e0b499c50bdd13a908dbb2bf972e56a18bda5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
