@@ -380,7 +380,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" />
   <project path="frameworks/volley" name="android_frameworks_volley" remote="cm" />
-  <project path="frameworks/webview" name="frameworks_webview" />
+  <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="gh" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" />
   <!--#########################################################-->
 
