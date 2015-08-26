@@ -382,6 +382,7 @@
   <project path="frameworks/volley" name="android_frameworks_volley" remote="cm" />
   <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="gh" revision="cm-12.1" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cm" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="android-support-test" />
   <!--#########################################################-->
 
   <!--#########################HARDWARE########################--> 
